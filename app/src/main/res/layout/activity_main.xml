@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/intro"
+        android:gravity="center"
+        android:textSize="27sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/standardButton"
+        android:id="@+id/b_spotify"
+        android:layout_marginTop="30dp"
+        android:text="@string/spotify"
+        android:onClick="clickSpotify" />
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/standardButton"
+        android:id="@+id/scores"
+        android:text="@string/scores"
+        android:onClick="clickScores" />
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/standardButton"
+        android:id="@+id/library"
+        android:text="@string/library"
+        android:onClick="clickLibrary" />
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/standardButton"
+        android:id="@+id/b_build"
+        android:text="@string/build"
+        android:onClick="clickBuild" />
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/standardButton"
+        android:id="@+id/b_xyz"
+        android:text="@string/xyz"
+        android:onClick="clickXyz" />
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/standardButton.capstone"
+        android:id="@+id/b_capstone"
+        android:text="@string/capstone"
+        android:onClick="clickCapstone" />
+
+</LinearLayout>
